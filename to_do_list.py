@@ -113,8 +113,7 @@ button_sort_desc.place(x=10,y=200,height=30,width=100)
 button_number_of_tasks = tkinter.Button(window, text = "Number of \n Tasks", bg = "white", command = show_number_of_tasks ,font=('Georgia',12,'bold'))
 button_number_of_tasks.place(x=10,y=240,height=40,width=100)
 
-button_exit = tkinter.Button(window, text = "Reminder", bg = "white", command = reminder,font=('Georgia',12,'bold'))
-button_exit .place(x=10,y=290,height=30,width=100)
+
 
 listBox_tasks = tkinter.Listbox(window)
 listBox_tasks.place(x=120,y=100,height=220,width=250)
